@@ -1,6 +1,6 @@
-# ERC 821 Abis
+# ERC 821
 
-ABIs to interact with ERC821 compatible smart contracts.
+ERC821 contracts and ABIs
 
 ```js
 let erc821 = require('erc821')
