@@ -1,6 +1,6 @@
 {
   "name": "erc821",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ABIs for ERC 821",
   "scripts": {
     "test": "scripts/test.sh",
