@@ -1,11 +1,17 @@
-# ERC 821
+# ERC 821 Abis
 
-![Build Status](https://circleci.com/gh/decentraland/erc821.png)
+ABIs to interact with ERC821 compatible smart contracts.
 
-Contracts for the standard implementation of the ERC821
+```js
+let erc821 = require('erc821')
+
+// in addition to StandardAssetRegistry, you can also use
+// one of IAssetHolder, IAssetRegistry, AssetRegistryStorage
+let abi = erc821.StandardAssetRegistry
+```
 
 Full spec: https://github.com/ethereum/EIPs/issues/821
 
 ## License
 
-Code released under [the Apache v2.0 license](https://github.com/decentraland/land/blob/master/LICENSE).
+Code released under [the Apache v2.0 license](https://github.com/buhrmi/ERC821/blob/master/LICENSE).

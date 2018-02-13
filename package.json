@@ -1,24 +1,25 @@
 {
   "name": "erc821",
   "version": "1.0.1",
-  "description": "Contract for ERC 821",
+  "description": "ABIs for ERC 821",
   "scripts": {
     "test": "scripts/test.sh",
     "test:watch": "nodemon test/** contracts/** --exec 'npm test'",
     "lint": "npx eslint test",
     "lint:fix": "npx eslint --fix test"
   },
+  "main": "index.js",
   "precommit": "test",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/decentraland/erc821.git"
+    "url": "git+https://github.com/buhrmi/erc821.git"
   },
-  "author": "The Decentraland Team <hello@decentraland.org>",
+  "author": "Stefan Buhrmester <buhrmi@gmail.com>",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/decentraland/erc821/issues"
+    "url": "https://github.com/buhrmi/erc821/issues"
   },
-  "homepage": "https://github.com/decentraland/erc821#readme",
+  "homepage": "https://github.com/buhrmi/erc821#readme",
   "dependencies": {
     "eip820": "github:jbaylina/eip820",
     "zeppelin-solidity": "^1.6.0"
