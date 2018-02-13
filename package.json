@@ -6,7 +6,8 @@
     "test": "scripts/test.sh",
     "test:watch": "nodemon test/** contracts/** --exec 'npm test'",
     "lint": "npx eslint test",
-    "lint:fix": "npx eslint --fix test"
+    "lint:fix": "npx eslint --fix test",
+    "flatten": "sol-merger './contracts/*.sol' ./build/contracts"
   },
   "main": "index.js",
   "precommit": "test",
@@ -22,6 +23,7 @@
   "homepage": "https://github.com/buhrmi/erc821#readme",
   "dependencies": {
     "eip820": "github:jbaylina/eip820",
+    "sol-merger": "^0.1.2",
     "zeppelin-solidity": "^1.6.0"
   },
   "devDependencies": {
